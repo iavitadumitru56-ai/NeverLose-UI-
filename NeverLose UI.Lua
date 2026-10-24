@@ -3162,13 +3162,7 @@ function NeverLose:RegisiterHandler(Handler: Frame , Signal)
 
 	return handle;
 end;
-```
 
----
-
-### 📦 ЧАСТЬ 2 (Скопируйте и вставьте сразу под Частью 1)
-
-```lua
 NeverLose.ProcessDropdown = LPH_NO_VIRTUALIZE(function(value)
 	if typeof(value) == 'table' then
 		local data = {};
